@@ -1,74 +1,144 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Resume</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio | ALI</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet" />
   </head>
 
   <body>
-      <h1>Jane Doe</h1>
-      <img src="ali.jpg" alt="Picture" width="100px">
-      <h2>Summary</h2>
-    <p>
-      I am a hardworking and dedicated individual with experience in customer
-      service and administration.
-    </p>
-    <hr>
-      <h2>Education</h2>
-    <p>
-      <ul>
-        <li>
-        Bachelor of Arts, Business Administration - University of XYZ (2010-2014)
-        </li>
+    <header>
+      <a href="#" class="logo">A<span>Y</span></a>
+
+      <ul class="navlist">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#skills">Skills</a></li>
       </ul>
-    </p>
-      <h2>Work Experience</h2>
-      <ul>
-        <li>
-          <h3>
-            Customer Service Representative - ABC Inc.
-          </h3>
-          <p>June 2014 - May 2018</p>
-          <ul>
-            <li>Answered customer inquiries via phone and email</li>
-            <li>Resolved customer complaints and issues</li>
-            <li>Maintained customer records and updated account information</li>
-          </ul>
-      </ul>
-      <ul>
-        <li>
-          <h3>
-            Administrative Assistant - XYZ Corp.
-          </h3>
-          <p>June 2018 - Present</p>
-          <ul>
-            <li>Assisted with scheduling appointments and meetings</li>
-            <li>Managed incoming and outgoing mail and correspondence</li>
-            <li>Prepared reports and presentations using Microsoft Office Suite</li>
-          </ul>
-      </ul>
-      <hr>
-      <h2>Skills</h2>
-      <ul>
-        <li>Customer service: ⭐️⭐️⭐️⭐️⭐️</li>
-        <li>Microsoft Office Suite: ⭐️⭐️⭐️</li>
-        <li>Organizational skills: ⭐️⭐️⭐️⭐️</li>
-      </ul>
-      <hr>
-      <h2>Awards and Certifications</h2>
-      <ul>
-        <li>Employee of the Month - ABC Inc. (August 2016)</li>
-      </ul>
-      <hr>
-      <h2>Other</h2>
-      <ul>
-        <li>
-          <a href="hobbies.html" target="_blank">My Hobbies</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="contact.html" target="_blank">Contact Me</a>
-        </li>
-      </ul>
-      <p>© Jane Doe. All rights reserved.</p>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    <section class="home" id="home">
+      <div class="home-text">
+        <div class="slide">
+          <span class="one">Hello</span>
+          <span class="two">I'm</span>
+        </div>
+        <h1>Aliah Jane Yu</h1>
+        <h3>Web<span>Developer.</span></h3>
+        <p>
+          Experienced web developer with a passion for creating user-friendly
+          websites and applications. Seeking challenging projects to leverage
+          expertise in front-end and back-end development.
+        </p>
+        <div class="button">
+          <a href="#" class="btn">Say Hello</a>
+          <a href="#" class="btn2"
+            ><span><i class="bx bx-play"></i></span>Watch My Work</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <section class="education" id="education">
+      <div class="education-img">
+        <img src="Picture4.jpg" />
+      </div>
+      <div class="education-text">
+        <h2>My <span>Education</span></h2>
+        <p>
+          I am currently a third-year student pursuing a Bachelor of Science in
+          Computer Science at St. Clare College of Caloocan. My journey in this
+          program began in 2021, and I have been passionate about the world of
+          technology and computer science ever since. Throughout my academic
+          journey, I have gained a solid foundation in programming, data
+          structures, and algorithms, and I am enthusiastic about applying these
+          skills to solve real-world problems. I'm excited to continue my
+          education and contribute to the ever-evolving field of computer
+          science.
+        </p>
+        <a href="#" class="btn">More about</a>
+      </div>
+    </section>
+    <section class="certificate" id="certificates">
+      <div class="main-text">
+        <h2>My <span>Certificates</span></h2>
+      </div>
+      <div class="certificate-content">
+        <div class="box">
+          <div class="s-icons">
+            <i class="bx bx-mobile-alt"></i>
+          </div>
+          <h3>Maintaining Computer Systems and Networks</h3>
+          <p>
+            This module will encompass the comprehensive maintenance of computer
+            systems and networks. Prior completion of all prerequisite modules
+            is strongly recommended. Within this module, you will gain
+            proficiency in planning and preparing for the maintenance of
+            computer systems and networks, as well as in inspecting and
+            thoroughly testing configured and repaired computer systems and
+            networks.
+          </p>
+        </div>
+        <div class="box">
+          <div class="s-icons">
+            <i class="bx bxs-file-css"></i>
+          </div>
+          <h3>Setting Up Computer Servers</h3>
+          <p>
+            This module will be all about setting up computer servers. This is
+            the fourth module for CSS, it is important that you've completed
+            taking Intro to CSS and Installing and Configuring Computer Systems.
+            This module will teach you how to set up computer servers. This
+            includes setting up user access, configuring network services, and
+            performing testing and documentation procedures.
+          </p>
+        </div>
+        <div class="box">
+          <div class="s-icons">
+            <i class="bx bx-laptop"></i>
+          </div>
+          <h3>Setting Up Computer Networks</h3>
+          <p>
+            This module will be all about setting up computer networks! This is
+            the third module for CSS, it is important that you've completed
+            taking Intro to CSS and Installing and Configuring Computer Systems.
+            This module will teach you how to create network cables and
+            configure the network. You will learn how to configure the router
+            and terminate and connect cables for a workstation.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="skills-img">
+        <div class="skills-text">
+          <h2><span>Skills</span> & <span>Interest</span></h2>
+          <p>
+            As a still-learning programmer with a foundation in C, Java, and C#,
+            I have a strong interest in expanding my skills and knowledge in
+            programming. While my proficiency in these programming languages may
+            be limited, I am enthusiastic about developing my skills to create
+            efficient and innovative software solutions. As a lifelong learner,
+            I am committed to staying up-to-date with the latest trends and
+            techniques in the field, and I am constantly seeking out
+            opportunities to enhance my skills and knowledge.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
