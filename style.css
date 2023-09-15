@@ -2,11 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
-
 }
 header{
     position: fixed;
@@ -28,33 +27,20 @@ header{
     font-weight: 700;
     letter-spacing: 1px;
 }
-span{
-    color: #ff4d05;
-}
 .navlist{
     display: flex;
 }
 .navlist a{
-    color: #ccc;
+    color: #fff;
     font-size: 17px;
     font-weight: 500;
     margin: 0 25px;
     transition: all .45s ease;
 }
 .navlist a:hover {
-    color: #ff4d05;
+    color: #696969;
 }
-.navlist a.active{
-    color: #ff4d05;
-}
-#menu-icon{
-    font-size: 35px;
-    color: #fff;
-    z-index: 10001;
-    cursor: pointer;
-    margin-left: 25px;
-    display: none;
-}
+
 section{
     padding: 160px 15% 120px;
 }
@@ -62,219 +48,296 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url(bg1.avif);
-    background-size: cover;
-    background-position: center;
+    background: #181818;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    
-}
-.slide{
-    margin-bottom: 20px;
-}
-.one{
-    display: inline-block;
-    margin-right: 15px;
-    height: 32px;
-    padding: 0 15px;
-    line-height: 32px;
-    font-size: 20px;
-    font-weight: 500;
-    border-radius: 5px;
-    background: #ff4d05;
-    color: #fff;
-}
-.two{
-    display: inline-block;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
 }
 .home-text h1{
     font-size: 5rem;
     font-weight: 700;
+    margin-bottom: 8px;;
     color: #fff;
     line-height: 1.1;
     margin: 0,0, 8px;
 }
 .home-text h3{
-    color: #fff;
-    margin: 0,0, 35px;
+    color: #696969;
+    margin: 0,0,35px;
     font-size: 3rem;
     font-weight: 700;
+    margin-bottom: 8px;
     line-height: 1.1;
 }
 .home-text p{
-    color: #fff;
-    margin: 0,0, 35px;
-    font-size: 1.1rem;
+    color: 	#696969;
+    font-size: 1.2rem;
     line-height: 1.8;
     margin-bottom: 40px;
-}
-.button{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-.btn{
-    display: inline-block;
-    padding: 12px 28px;
-    background: #ff4d05;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1rem;
-    letter-spacing: 1px;
-    font-weight: 600;
-    transition: all .45s ease;
-}
-.btn:hover{
-    transform: scale(0.9);
-}
-.btn2{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 15px;
-    font-weight: 600;
-    margin-left: 35px;
-}
-.btn2 span i{
-    height: 55px;
-    width: 55px;
-    background: #ff4d05;
-    color: #fff;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 35px;
-    border-radius: 50%;
-    margin-right: 15px;
-    transition: all .45s ease;
-}
-.btn2 span i:hover{
-    transform: scale(1.1) translateY(5px);
+    word-wrap: break-word;
+    width: 800px;
 }
 
-.education-text h2{
-    font-size: 45px;
-    margin-right: 100px;
-    margin-bottom: 10px;
-}
-.education-text p{
-    font-size:1.1rem;
-    line-height: 1.8;
-    margin-bottom: 4rem;
-    color: #FFF;
-}
 header.sticky{
     background: #212120;
     border-bottom: 1px solid #fffbfb;
     padding: 12px 15%;
 }
+.icons a{
+    margin-right: 30px;
+    font-size: 30px;
+    color: #696969;
+}
+.icons a:hover{
+    color: #fff;
+}
 .education{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    grid: 1.5rem;
-    background-image: url(bg2.jpg);
+    background: #181818;
 }
-.education-img{
-    max-width: 530px;
-    height: auto;
-    width: 100%;
-    border-radius: 8px;
+.timeline{
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
 }
-.certificate{
-    background-image: url(bg3.avif);
+.container{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
 }
-.main-text{
-    text-align: center;
-}
-.main-text p{
-    color: #ccc;
-    font-size: 15px;
-    margin-bottom: 15px;
-
-}
-.main-text h2{
-    font-size: 3rem;
-    line-height: 1;
-    color: #ccc;
-}
-.main-text h2{
-    font-size: 3rem;
-    line-height: 1;
-}
-
-.certificate-content{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    align-items: center;
-    gap: 2.5rem;
-    margin-top: 5rem;
-}
-.box{
-    background: #cd3f07f0;
-    padding: 35px 35px;
-    border-radius: 8px;
-    transition: all .45s ease;
-}
-.s-icons{
-    font-size: 32px;
-    margin-bottom: 20px;
+.text-box{
+    padding: 20px 30px;
+    background: #202020;
+    position: relative;
     
-
+    border-radius: 6px;
+    font-size: 15px;
 }
-.box h3{
-    font-size: 24px;
+.left-container{
+    left: 0%;
+}
+.right-container{
+    left: 50%;
+}
+.container img{
+    position: absolute;
+    width: 40px;
+    border-radius: 50%;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+}
+.right-container img{
+    left: -20px;
+}
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: #fff;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: 1;
+    animation: moveline 6s linear forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes moveline{
+    0%{
+        height: 0; 
+    }
+    100%{
+        height: 100%;
+    }
+}
+.text-box h2{
     font-weight: 600;
     color: #fff;
+}
+.text-box small{
+    display: inline-block;
     margin-bottom: 15px;
+    color: #fff;
 }
-.box p{
-    color: #ccc;
-    font-size: 1rem;
-    line-height: 1.8;
-    margin-bottom: 25px;
+.text-box p{
+    font-weight: 500;
+    color: #fff;
 }
-.box:hover{
-    transform: translateY(-8px);
+.left-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 15px solid #202020;
+    right: -15px;
+}
+.right-container-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid #202020;
+    left: -15px;
+}
+.education-text h2{
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+.education-text p{
+    font-size: 20px;
+    text-align: center;
+    color: #696969;
+}
+.certificate{
+    background: #181818;
+}
+.wrapper{
+    display: flex;
+    justify-content: content;
+    align-items: center;
+    flex-direction: column;
+    background: #181818;
+}
+.wrapper h1{
+    font-size: 50px;
+    color: #fff;
+}
+.wrapper p{
+    font-size: 20px;
+    color: #696969;
+}
+.content-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top: 30px;
+}
+.card{
+    min-height: 220px;
+    width: 320px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background: #202020;
+    margin: 10px 4px;
+    box-shadow: 0px 15 25px rgba(232, 225, 225, 0.2);
+    justify-content: center;
+    align-items: center;
+}
+.card h2{
+    color: #fff;
+    margin-bottom: 12px;
+    font-weight: 400;
+}
+.card:hover h2{
+    font-weight: 500;
+    color: #202020;
+}
+.card:nth-child(1):hover{
+    background-image: linear-gradient(to right, rgba(15, 216, 223, 0.756), rgba(147, 222, 160, 0.851)), url('tesda1.png') ;
+    background-size: cover;
+}
+.card:nth-child(2):hover{
+    background-image: linear-gradient(to right, rgba(15, 216, 223, 0.756), rgba(147, 222, 160, 0.851)), url('tesda2.png');
+    background-size: cover;
+}
+.card:nth-child(3):hover{
+    background-image: linear-gradient(to right, rgba(15, 216, 223, 0.756), rgba(147, 222, 160, 0.851)), url('tesda3.png');
+    background-size: cover;
+}
+.card:nth-child(4):hover{
+    background-image: linear-gradient(to right, rgba(15, 216, 223, 0.756), rgba(147, 222, 160, 0.851)), url('tesda4.png');
+    background-size: cover;
+}
+.card:nth-child(5):hover{
+    background-image: linear-gradient(to right, rgba(15, 216, 223, 0.756), rgba(147, 222, 160, 0.851)), url('tesda5.png');
+    background-size: cover;
+}
+.card:nth-child(6):hover{
+    background-image: linear-gradient(to right, rgba(15, 216, 223, 0.756), rgba(147, 222, 160, 0.851)), url('tesda6.png');
+    background-size: cover;
+}
+.gallery{
+    background: #181818;
+}
+.boxes{
+    width: 100%;
+    height: 100vh;
+    background: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-box{
+    width: 150px;
+    height: 500px;
+    margin: 10px;
+    margin-bottom: 300px;
+    border-radius: 50px;
+    background: url(1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: width 0.5s;
+}
+.img-box:nth-child(2){
+    background: url(2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(3){
+    background: url(3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(4){
+    background: url(4.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(5){
+    background: url(5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(6){
+    background: url(6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(7){
+    background: url(7.webp);
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(8){
+    background: url(8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-box:hover{
+    width: 320px;
     cursor: pointer;
 }
-.skills{
-    
-    background-image: url(bg4.jpg);
-    
-}
-.skills h2{
+.gallery h2{
     font-size: 50px;
-    margin-right: 900px;
-    margin-bottom: 10px;
+    text-align: center;
     color: #fff;
-    margin-right: 100px;
-    margin-left: 200%;
-    width: 100%;
+    margin-bottom:50px;
 }
-.skills p{
-    font-size:1.2rem 10px;
-    line-height: 1.8;
-    margin-bottom: 4rem;
-    color: #fff;
-    justify-content: left;
-    margin-left: 200%;
-    width: 100%;
-}
-.skills-img{
-    max-width: 500px;
-    height: auto;
-    width: 100%;
-    border-radius: 160px;
-}
-.skills-text p{
-    font-size:1.1rem;
-    line-height: 1.8;
-    margin-bottom: 4rem;
+.skills{
+    background: #181818;
 }
 
