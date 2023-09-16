@@ -21,6 +21,17 @@ header{
     border-bottom: 1px soid transparent;
     transition: all .45s ease;
 }
+
+/* JAVASCIPT*/
+
+header.sticky{
+    background: #202020;
+    border-bottom: 1px solid #fffbfb;
+    padding: 12px 15%;
+}
+
+/* HEADER */
+
 .logo{
     color: #fff;
     font-size: 35px;
@@ -41,21 +52,31 @@ header{
     color: #696969;
 }
 
+/* SECTIONS */
+
 section{
     padding: 160px 15% 120px;
+    margin-bottom: -300px;
 }
+
+/* HOME SECTION  */
+
 .home{
     position: relative;
     height: 100vh;
     width: 100%;
     background: #181818;
-    display: flex;
-    align-items: center;
+}
+.home-img{
+    margin-left: 950px;
+    margin-top: 120px;
+
 }
 .home-text h1{
     font-size: 5rem;
     font-weight: 700;
-    margin-bottom: 8px;;
+    margin-bottom: -500px;
+    margin-top: -300px;
     color: #fff;
     line-height: 1.1;
     margin: 0,0, 8px;
@@ -63,25 +84,22 @@ section{
 .home-text h3{
     color: #696969;
     margin: 0,0,35px;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 8px;
     line-height: 1.1;
+    margin-top: 500px;
 }
 .home-text p{
     color: 	#696969;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.8;
     margin-bottom: 40px;
     word-wrap: break-word;
     width: 800px;
+    margin-top: 20px;
 }
 
-header.sticky{
-    background: #212120;
-    border-bottom: 1px solid #fffbfb;
-    padding: 12px 15%;
-}
 .icons a{
     margin-right: 30px;
     font-size: 30px;
@@ -90,6 +108,9 @@ header.sticky{
 .icons a:hover{
     color: #fff;
 }
+
+/* EDUCATION SECTION */
+
 .education{
     background: #181818;
 }
@@ -104,10 +125,10 @@ header.sticky{
     width: 50%;
 }
 .text-box{
+    margin-top: -20px;
     padding: 20px 30px;
     background: #202020;
     position: relative;
-    
     border-radius: 6px;
     font-size: 15px;
 }
@@ -150,7 +171,7 @@ header.sticky{
     }
 }
 .text-box h2{
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
 }
 .text-box small{
@@ -188,12 +209,17 @@ header.sticky{
     font-size: 50px;
     text-align: center;
     color: #fff;
+    margin-bottom: 10px;
+    
 }
 .education-text p{
     font-size: 20px;
     text-align: center;
     color: #696969;
 }
+
+/* CERTIFICATE SECTION */
+
 .certificate{
     background: #181818;
 }
@@ -202,11 +228,12 @@ header.sticky{
     justify-content: content;
     align-items: center;
     flex-direction: column;
-    background: #181818;
+    background: transparent;
 }
 .wrapper h1{
     font-size: 50px;
     color: #fff;
+    margin-bottom: 20px;
 }
 .wrapper p{
     font-size: 20px;
@@ -227,7 +254,7 @@ header.sticky{
     display: flex;
     flex-direction: column;
     background: #202020;
-    margin: 10px 4px;
+    margin: 23px -23px;
     box-shadow: 0px 15 25px rgba(232, 225, 225, 0.2);
     justify-content: center;
     align-items: center;
@@ -265,6 +292,9 @@ header.sticky{
     background-image: linear-gradient(to right, rgba(15, 216, 223, 0.756), rgba(147, 222, 160, 0.851)), url('tesda6.png');
     background-size: cover;
 }
+
+/* GALLERY SECTION */
+
 .gallery{
     background: #181818;
 }
@@ -280,12 +310,13 @@ header.sticky{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: -100%;
 }
 .img-box{
-    width: 150px;
-    height: 500px;
+    width: 200px;
+    height: 495px;
     margin: 10px;
-    margin-bottom: 300px;
+    margin-bottom: 400px;
     border-radius: 50px;
     background: url(1.jpg);
     background-size: cover;
@@ -335,9 +366,146 @@ header.sticky{
     font-size: 50px;
     text-align: center;
     color: #fff;
-    margin-bottom:50px;
-}
-.skills{
-    background: #181818;
+    margin-top: 125px;
 }
 
+/* SKILLS SECTION */
+
+.skills{
+    background: #181818;
+    margin-top: 200px;
+}
+.skills-info{
+    margin-left: 100px;
+    margin-right: 10px;
+}
+.skills-info .dash{
+    font-size: 50px;
+    color: #fff;
+}
+.skills-info .dash span{
+    width: 40px;
+    height: 2px;
+}
+.skills-info .row{
+    display: flex;
+}
+.skills-info .row .left-items{
+    width: 50%;
+    margin-right: -100px;
+}
+.skills-info  .left-items p{
+    width: 100%;
+    margin-top: 30px;
+    margin-right: 100px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    color: #696969;
+}
+.skills-info .percentage h4{
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    color: #696969;
+}
+.skills-info .percentage .html{
+    width: 90%;
+    height: 7px;
+    border-radius: 5px;
+    background: linear-gradient(rgba(15, 216, 223, 0.756), rgba(147, 222, 160, 0.851));
+    display: inline-block
+}
+.skills-info .percentage .css{
+    width: 80%;
+    height: 7px;
+    border-radius: 5px;
+    background: linear-gradient(rgba(15, 216, 223, 0.756), rgba(147, 222, 160, 0.851));
+    display: inline-block
+}
+.skills-info .percentage .javascript{
+    width: 60%;
+    height: 7px;
+    border-radius: 5px;
+    background: linear-gradient(rgba(15, 216, 223, 0.756), rgba(147, 222, 160, 0.851));
+    display: inline-block
+}
+.skills-info .row .right-items{
+    width: 50%;
+    text-align: center;
+    margin-left: 250px;
+}
+.skills-info .right-items .part1{
+   float: left;
+   padding: 33px;
+}
+.skills-info .right-items .part1 i {
+    color: #fff;
+    font-size: 30px;
+ }
+ .skills-info .right-items .part2{
+    float: left;
+    padding: 33px;
+ }
+ .skills-info .right-items .part2 i {
+     color: #fff;
+     font-size: 30px;
+  }
+  .skills-info .right-items .part3{
+    float: left;
+    margin-left: 35px;
+ }
+ .skills-info .right-items .part3 i {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 35px;
+  }
+  .skills-info .right-items .part1 p, .part2 p, .part3 p{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #696969;
+ }
+ .skills-info .right-items .part1 h1, .part2 h1, .part3 h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 30px;
+    color: #696969;
+ }
+ .text p{
+    color: #696969;
+    margin-right: -1px;
+    margin-bottom: -100px;
+    margin-top: 230px;
+    letter-spacing: 1px;
+    font-size: 16px;
+ }
+ .footer{
+    background: #202020;
+    padding-top: 60px;
+    position: absolute;
+    bottom: -3100px;
+    left: 0;
+    right: 0;
+ }
+ .footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+ }
+ .footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 200;
+    line-height: 3rem;
+ }
+ .footer-content p{
+    font-size: 1.8rem;
+    max-width: 500px;
+    margin: 10px auto;
+    font-size: 14px;
+ }
+ 
