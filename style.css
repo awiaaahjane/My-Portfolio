@@ -129,6 +129,7 @@ section{
 
 .education{
     background: var(--background-color);
+    margin: 300px
 }
 .timeline{
     position: relative;
