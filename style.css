@@ -6,6 +6,7 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
+    position: relative;
 }
 :root{
     /*darkmode*/
@@ -71,7 +72,7 @@ header.sticky{
 
 section{
     padding: 160px 15% 120px;
-    margin-bottom: -300px;
+    margin-bottom: -260px;
 }
 
 /* HOME SECTION  */
@@ -500,7 +501,7 @@ section{
     background: #202020;
     padding-top: 60px;
     position: absolute;
-    bottom: -3100px;
+    bottom: 0;
     left: 0;
     right: 0;
  }
