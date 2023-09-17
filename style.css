@@ -129,7 +129,9 @@ section{
 
 .education{
     background: var(--background-color);
-    margin: 300px
+}
+#education{
+    margin-bottom: -40px;
 }
 .timeline{
     position: relative;
