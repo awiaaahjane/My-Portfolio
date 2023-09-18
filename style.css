@@ -6,7 +6,6 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;   
-    position: relative;
 }
 :root{
     /*darkmode*/
@@ -81,11 +80,11 @@ section{
     height: 100vh;
     width: 100%;
     background: var(--background-color);
+    position: relative;
 }
 .home-img{
     margin-left: 950px;
     margin-top: 120px;
-
 }
 .home-text h1{
     font-size: 5rem;
@@ -525,10 +524,7 @@ section{
  .footer{
     background: #202020;
     padding: 40px;
-    position: absolute;
     bottom: 0;
-    left: 0;
-    right: 0;
  }
  .footer-content{
     display: flex;
