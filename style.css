@@ -6,6 +6,7 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;   
+    position: relative;
 }
 :root{
     /*darkmode*/
@@ -80,7 +81,6 @@ section{
     height: 100vh;
     width: 100%;
     background: var(--background-color);
-    position: relative;
 }
 .home-img{
     margin-left: 950px;
@@ -524,7 +524,10 @@ section{
  .footer{
     background: #202020;
     padding: 40px;
+    position: absolute;
     bottom: 0;
+    left: 0;
+    right: 0;
  }
  .footer-content{
     display: flex;
@@ -594,5 +597,8 @@ section{
     color: var(--text-color);
     width:160px;
 }
-
+.contact-form .submit:hover{
+    background: #423d3d;
+    
+}
 
