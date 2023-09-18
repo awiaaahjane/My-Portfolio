@@ -5,7 +5,7 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
     text-decoration: none;
     list-style: none;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;   
     position: relative;
 }
 :root{
@@ -14,6 +14,7 @@
     --text-color: #fff;
     --third-color: #cec4c4;
     --hover-color: #423d3d;
+    --form-color: #202020
 }
     .light-theme{
     /* lightmode */
@@ -35,7 +36,6 @@ header{
     background: transparent;
     padding: 22px 15%;
     border-bottom: 1px soid transparent;
-    transition: all .45s ease;
 }
 
 /* JAVASCIPT*/
@@ -72,7 +72,7 @@ header.sticky{
 
 section{
     padding: 160px 15% 120px;
-    margin-bottom: -260px;
+    margin-bottom: -110px;
 }
 
 /* HOME SECTION  */
@@ -241,6 +241,7 @@ section{
 
 .certificate{
     background: var(--background-color);
+    margin-bottom: -100px;
 }
 .wrapper{
     display: flex;
@@ -316,6 +317,19 @@ section{
 
 .gallery{
     background: var(--background-color);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.img-box h3{
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+    color: #181818;
+    font-size: 30px;
 }
 .boxes{
     width: 100%;
@@ -337,43 +351,44 @@ section{
     margin: 10px;
     margin-bottom: 400px;
     border-radius: 50px;
-    background: url(1.jpg);
+    background: url(ash.jpg);
     background-size: cover;
     background-position: center;
     transition: width 0.5s;
+
 }
 .img-box:nth-child(2){
-    background: url(2.jpg);
+    background: url(bella.jpg);
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(3){
-    background: url(3.jpg);
+    background: url(gojo.jpg);
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(4){
-    background: url(4.jpg);
+    background: url(rain.jpg);
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(5){
-    background: url(5.jpg);
+    background: url(hiro.jpg);
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(6){
-    background: url(6.jpg);
+    background: url(dizzy.jpg);
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(7){
-    background: url(7.webp);
+    background: url(haru.jpg);
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(8){
-    background: url(8.jpg);
+    background: url(bulinggit.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -387,12 +402,17 @@ section{
     color: var(--text-color);
     margin-top: 125px;
 }
+.img-box:hover h3{
+    opacity: 1;
+    bottom: 25px;
+
+}
 
 /* SKILLS SECTION */
 
 .skills{
     background: var(--background-color);
-    margin-top: 200px;
+    margin-bottom: -100px;
 }
 .skills-info{
     margin-left: 100px;
@@ -500,9 +520,12 @@ section{
     letter-spacing: 1px;
     font-size: 16px;
  }
+
+ /*FOOTER SECTION*/
+ 
  .footer{
     background: #202020;
-    padding-top: 60px;
+    padding: 40px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -527,9 +550,62 @@ section{
     margin: 10px auto;
     font-size: 14px;
  }
+
+ /* CONTACT SECTION*/
+
  #icon{
     width: 30px;
     cursor: pointer;
  }
- 
- 
+ .contact{
+    background: var(--background-color);
+ }
+ .contact-text h2{
+    font-size: 50px;
+    color: var(--text-color);
+    text-align: center;
+    margin-right: 10px;
+ }
+ .contact-text p{
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.9;
+    color: #696969;
+ }
+ .contact-icons {
+    margin-right: 500px;
+    font-size: 30px;
+    color: #696969;
+ }
+ .contact-icons i:hover{
+    color: var(--text-color);
+ }
+ .contact-form form{
+    position: relative;
+}
+.contact-form form input, form textarea{
+    width: 50%;
+    padding: 14px;
+    background: #202020;
+    color: var(--third-color);
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+}
+.contact-form .submit{
+    display: inline-block;
+    font-size: 16px;
+    background: #696969;
+    color: var(--text-color);
+    width:160px;
+}
+
+
