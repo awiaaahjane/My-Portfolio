@@ -434,21 +434,21 @@ section{
     width: 90%;
     height: 7px;
     border-radius: 5px;
-    background: linear-gradient(rgba(15, 216, 223, 0.756), rgba(147, 222, 160, 0.851));
+    background: linear-gradient(rgba(15, 216, 223, 0.756), rgba(176, 198, 180, 0.851));
     display: inline-block
 }
 .skills-info .percentage .css{
     width: 80%;
     height: 7px;
     border-radius: 5px;
-    background: linear-gradient(rgba(15, 216, 223, 0.756), rgba(147, 222, 160, 0.851));
+    background: linear-gradient(rgba(15, 216, 223, 0.756), rgba(176, 198, 180, 0.851));
     display: inline-block
 }
 .skills-info .percentage .javascript{
     width: 60%;
     height: 7px;
     border-radius: 5px;
-    background: linear-gradient(rgba(15, 216, 223, 0.756), rgba(147, 222, 160, 0.851));
+    background: linear-gradient(rgba(15, 216, 223, 0.756), rgba(176, 198, 180, 0.851));
     display: inline-block
 }
 .skills-info .row .right-items{
